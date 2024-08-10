@@ -43,7 +43,7 @@ const Login: FC<LoginProps> = (props) => {
         })
     }
 
-    return <section>
+    return <div>
         {contextHolder}
 
         <h1>Login</h1>
@@ -101,7 +101,7 @@ const Login: FC<LoginProps> = (props) => {
                 </Button>
             </Form.Item>
         </Form>
-    </section>
+    </div>
 }
 
 export default Login 

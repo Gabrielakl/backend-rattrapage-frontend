@@ -27,3 +27,17 @@ export const register = async (username: string, password: string, email: string
     });
     return response;
 }
+
+export const getMyUser = async () => {
+    const response = await api.get('/user');
+    return response;
+}
+
+export const addPokemon = async (name: string, type: string, health: number) => {
+    const response = await api.post('/pokemon', {
+        name,
+        type,
+        health
+    });
+    return response;
+}

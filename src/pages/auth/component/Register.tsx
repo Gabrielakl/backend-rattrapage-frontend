@@ -34,7 +34,7 @@ const Register: FC<RegisterProps> = (props) => {
         })
     }
 
-    return <section>
+    return <div>
         {contextHolder}
 
         <h1>Register</h1>
@@ -105,7 +105,7 @@ const Register: FC<RegisterProps> = (props) => {
                 </Button>
             </Form.Item>
         </Form>
-    </section>
+    </div>
 }
 
 export default Register 
